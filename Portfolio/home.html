@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Kamali</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px 40px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .navbar a {
+            margin-left: 20px;
+            padding: 10px 20px;
+            background: #000;
+            color: #fff;
+            border-radius: 20px;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background: #333;
+        }
+
+        
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            gap: 60px; 
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.08);
+        }
+
+        .text-section {
+            max-width: 55%;
+        }
+
+        .name-paragraph {
+            font-size: 30px;
+            font-weight: bold;
+            color: #111;
+        }
+
+        .skill-paragraph {
+            font-size: 20px;
+            font-weight: 700;
+            color: #444;
+        }
+
+        .info-paragraph,
+        .about-paragraph,
+        .skills-paragraph {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .profile {
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ddd;
+        }
+    </style>
+
+</head>
+
+<body>
+
+   
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    
+    <div class="container">
+
+        
+        <div class="text-section">
+            <p class="name-paragraph">Hi, I am Kamali 👋</p>
+
+            <p class="skill-paragraph">Aspiring Full Stack Developer</p>
+
+            <p class="info-paragraph">
+                I am a passionate full-stack developer specializing in building
+                clean, user-friendly, and impactful digital experiences.
+            </p>
+
+            <p class="about-paragraph"><strong>About Me</strong></p>
+            <p>
+                I have a strong foundation in front-end and back-end technologies.
+                I love learning, exploring new tools, and solving real-world problems
+                through efficient design and code.
+            </p>
+
+            <p class="skills-paragraph"><strong>Skills</strong></p>
+            <p>• HTML</p>
+            <p>• CSS</p>
+            <p>• JavaScript</p>
+            <p>• React</p>
+            <p>• Spring Boot</p>
+        </div>
+
+        
+        <img class="profile" src="profile.jpeg" alt="profile image">
+
+    </div>
+
+</body>
+</html>
